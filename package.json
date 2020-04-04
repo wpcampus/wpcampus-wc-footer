@@ -1,0 +1,33 @@
+{
+	"name": "@wpcampus/wpcampus-wc-footer",
+	"version": "0.0.0",
+	"description": "The Footer web component used by the WPCampus organization.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wpcampus/wpcampus-wc-footer.git"
+	},
+	"keywords": [
+		"wpcampus",
+		"web components"
+	],
+	"author": "WPCampus",
+	"contributors": [
+		"Rachel Cherry"
+	],
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/wpcampus/wpcampus-wc-footer/issues"
+	},
+	"homepage": "https://github.com/wpcampus/wpcampus-wc-footer#readme",
+	"scripts": {
+		"lint": "eslint *.js *.json --fix"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-plugin-json": "^2.1.1"
+	},
+	"dependencies": {
+		"@wpcampus/wpcampus-wc-default": "^0.0.1"
+	}
+}
