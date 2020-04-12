@@ -149,6 +149,29 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 						</svg>
 					</a>
 				</li>
+				<li class="newsletter">
+					<a href="https://wpcampus.org/">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 220 157" style="enable-background:new 0 0 220 157;" xml:space="preserve">
+							<title>Subscribe to the WPCampus newsletter</title>
+							<g>
+								<path d="M200,20v117H20V20H200 M207.3,0H12.7C5.7,0,0,5.7,0,12.7v131.5c0,7,5.7,12.7,12.7,12.7h194.5c7,0,12.7-5.7,12.7-12.7V12.7
+									C220,5.7,214.3,0,207.3,0L207.3,0z"/>
+								<g>
+									<g>
+										<path d="M110.4,109.1c-4.7,0-8.5,0-60.1-47.4c-24.2-22.2-47.8-44.8-48-45L15.8,2.5c41.9,40.1,89.9,83.8,97.6,87.6
+											c0,0-1.2-0.6-3-0.6V109.1z"/>
+										<path d="M109.6,109.1V89.5c-1.8,0-2.9,0.5-3,0.6c0,0,0.8-0.4,2.8-1.9c21.1-15.3,94.1-85,94.8-85.7l13.5,14.1
+											c-3,2.9-74.7,71.3-96.9,87.4C116.5,107.2,113.3,109.1,109.6,109.1z"/>
+									</g>
+									<g>
+										<rect x="-7.1" y="106.2" transform="matrix(0.7318 -0.6815 0.6815 0.7318 -65.187 61.6787)" width="105.8" height="15"/>
+										<rect x="166.7" y="60.7" transform="matrix(0.6816 -0.7318 0.7318 0.6816 -27.6906 163.6899)" width="15" height="105.8"/>
+									</g>
+								</g>
+							</g>
+						</svg>
+					</a>
+				</li>
 				<li class="twitter">
 					<a href="https://twitter.com/wpcampusorg" title="Follow WPCampus on Twitter">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60" style="enable-background:new 0 0 70 60;" xml:space="preserve">
