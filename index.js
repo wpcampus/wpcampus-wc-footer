@@ -4,11 +4,11 @@ const { WPCampusHTMLElement } = require("@wpcampus/wpcampus-wc-default");
 const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 		<svg version="1.1" class="wpc-logo wpc-logo--footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	viewBox="0 0 300 50" style="enable-background:new 0 0 300 50;" xml:space="preserve">
-			<style type="text/css">.st0{fill:#484A48;}</style>
+			<style type="text/css">.wpc-logo--footer .wpc-logo__letters--wp{opacity:0.7;}</style>
 			<title>WPCampus: Where WordPress meets Higher Education</title>
 			<g>
-				<path class="st0" d="M37.7,0L30,32.3h-4l-7-25l-6.5,25H8.2L0,0h4.2l6.5,26.1L17.5,0h3.3l7.4,26.1l6-26.1H37.7z"/>
-				<path class="st0" d="M51.2,32.3h-4V0h11.4c3.6,0,6.2,1,7.9,2.9C68.2,4.9,69,7.1,69,9.6c0,2.8-0.9,5.1-2.8,6.9
+				<path class="wpc-logo__letters--wp" d="M37.7,0L30,32.3h-4l-7-25l-6.5,25H8.2L0,0h4.2l6.5,26.1L17.5,0h3.3l7.4,26.1l6-26.1H37.7z"/>
+				<path class="wpc-logo__letters--wp" d="M51.2,32.3h-4V0h11.4c3.6,0,6.2,1,7.9,2.9C68.2,4.9,69,7.1,69,9.6c0,2.8-0.9,5.1-2.8,6.9
 		c-1.9,1.8-4.3,2.7-7.3,2.7h-7.8V32.3z M51.2,15.8h7.4c1.9,0,3.4-0.6,4.6-1.7c1.2-1.1,1.7-2.7,1.7-4.5c0-1.6-0.5-3-1.6-4.3
 		c-1-1.3-2.5-1.9-4.5-1.9h-7.7V15.8z"/>
 				<path d="M97,19.8l8.8,0.5c-0.4,3.8-1.8,6.8-4.3,8.8c-2.4,2-5.4,3.1-8.9,3.1c-4.2,0-7.7-1.4-10.3-4.2c-2.6-2.8-3.9-6.7-3.9-11.6
