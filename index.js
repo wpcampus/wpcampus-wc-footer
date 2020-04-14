@@ -150,7 +150,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 					</a>
 				</li>
 				<li class="newsletter">
-					<a href="https://wpcampus.org/">
+					<a href="https://wpcampus.org/about/newsletter/">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 220 157" style="enable-background:new 0 0 220 157;" xml:space="preserve">
 							<title>Subscribe to the WPCampus newsletter</title>
 							<g>
