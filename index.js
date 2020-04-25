@@ -119,10 +119,10 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 	<div class="wpc-area wpc-footer__area wpc-footer__area--nav">
 		<nav class="wpc-nav wpc-nav--footer" aria-label="Footer">
 			<ul>
-				<li><a href="https://wpcampus.org/about/">About WPCampus</a></li>
-				<li><a href="https://wpcampus.org/code-of-conduct/">Code of Conduct</a></li>
-				<li><a href="https://wpcampus.org/diversity/">Diversity, Equity, and Inclusion</a></li>
-				<li><a href="https://wpcampus.org/contact/">Contact us</a></li>
+				<li><a href="https://www.wpcampus.org/about/">About WPCampus</a></li>
+				<li><a href="https://www.wpcampus.org/about/guidelines/conduct/">Code of Conduct</a></li>
+				<li><a href="https://www.wpcampus.org/about/guidelines/diversity/">Diversity, Equity, and Inclusion</a></li>
+				<li><a href="https://www.wpcampus.org/about/contact/">Contact us</a></li>
 			</ul>
 		</nav>
   	</div>
@@ -130,7 +130,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 		<nav class="wpc-nav wpc-nav--social" aria-label="Social media and other services">
 			<ul>
 				<li class="slack">
-					<a href="https://wpcampus.org/get-involved/" title="Join WPCampus on Slack">
+					<a href="https://www.wpcampus.org/community/membership/" title="Join WPCampus on Slack">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 							<title>Join WPCampus on Slack</title>
 							<path d="M200,124.8c0.5,18.1-9.5,35.8-29,48.2c-16.7,10.7-35.2,17-54.3,21.5c-11.9,2.8-24.1,5-36.2,5.4
@@ -150,7 +150,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 					</a>
 				</li>
 				<li class="newsletter">
-					<a href="https://wpcampus.org/about/newsletter/">
+					<a href="https://www.wpcampus.org/about/newsletter/">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 220 157" style="enable-background:new 0 0 220 157;" xml:space="preserve">
 							<title>Subscribe to the WPCampus newsletter</title>
 							<g>
@@ -225,7 +225,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 		</nav>
 	</div>
 	<div class="wpc-area wpc-footer__area wpc-footer__area--copyright">
-		<div class="wpc-copyright">&copy; 2015-` + new Date().getFullYear() + ` <a href="https://wpcampus.org">WPCampus</a></div>
+		<div class="wpc-copyright">&copy; 2015-` + new Date().getFullYear() + ` <a href="https://www.wpcampus.org">WPCampus</a></div>
 	</div>`;
 
 class WPCampusFooter extends WPCampusHTMLElement {
