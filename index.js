@@ -120,9 +120,11 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 		<nav class="wpc-nav wpc-nav--footer" aria-label="Footer">
 			<ul>
 				<li><a href="https://www.wpcampus.org/about/">About WPCampus</a></li>
-				<li><a href="https://www.wpcampus.org/about/guidelines/conduct/">Code of Conduct</a></li>
-				<li><a href="https://www.wpcampus.org/about/guidelines/diversity/">Diversity, Equity, and Inclusion</a></li>
-				<li><a href="https://www.wpcampus.org/about/contact/">Contact us</a></li>
+				<li><a href="https://www.wpcampus.org/blog/">Our Blog</a>
+				<li><a href="https://www.wpcampus.org/community/">Our Community</a>
+				<li><a href="https://www.wpcampus.org/conferences/">Our Conferences</a>
+				<li><a href="https://www.wpcampus.org/about/guidelines/">Our Guidelines</a>
+				<li><a href="https://www.wpcampus.org/about/contact/">Contact us</a></li>				
 			</ul>
 		</nav>
   	</div>
