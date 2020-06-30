@@ -247,7 +247,7 @@ class WPCampusFooter extends WPCampusHTMLElement {
 		templateDiv.innerHTML = this.wrapTemplate(template, true, true, true);
 
 		// Get login URL.
-		const loginURL = this.getAttribute("loginURL") || this.defaultLoginURL;
+		const loginURL = this.getAttribute("loginurl") || this.defaultLoginURL;
 
 		// Set login URL.
 		const loginElement = templateDiv.querySelector("#wpc-footer-login");
