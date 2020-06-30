@@ -115,7 +115,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 		<nav class="wpc-nav wpc-nav--actions" aria-label="Become a member or login">
 			<ul>
 				<li class="wpc-nav-item--member"><a class="wpc-button wpc-button--primary" href="https://www.wpcampus.org/community/membership/">Become a member</a></li>
-				<li class="wpc-nav-item--login"><a class="wpc-button" href="https://www.wpcampus.org/login/">Login</a></li>
+				<li class="wpc-nav-item--login"><a id="wpc-footer-login" class="wpc-button" href="">Login</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -236,11 +236,24 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 class WPCampusFooter extends WPCampusHTMLElement {
 	constructor() {
 		super({ componentID: "footer" });
+		this.defaultLoginURL = "https://www.wpcampus.org/login/";
 	}
 	connectedCallback() {
 		super.connectedCallback();
 		this.setAttribute("role", "contentinfo");
-		this.innerHTML = this.wrapTemplate(template, true, true, true);
+
+		// Wrap template and store in <div> so we can modify.
+		const templateDiv = document.createElement("div");
+		templateDiv.innerHTML = this.wrapTemplate(template, true, true, true);
+
+		// Get login URL.
+		const loginURL = this.getAttribute("loginURL") || this.defaultLoginURL;
+
+		// Set login URL.
+		const loginElement = templateDiv.querySelector("#wpc-footer-login");
+		loginElement.setAttribute("href", loginURL);
+
+		this.innerHTML = templateDiv.innerHTML;
 	}
 }
 customElements.define("wpcampus-footer", WPCampusFooter);
