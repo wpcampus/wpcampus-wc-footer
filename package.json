@@ -1,6 +1,6 @@
 {
 	"name": "@wpcampus/wpcampus-wc-footer",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "The Footer web component used by the WPCampus organization.",
 	"main": "dist/main.js",
 	"repository": {
