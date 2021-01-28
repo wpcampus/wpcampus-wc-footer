@@ -40,6 +40,6 @@
 		"webpack-cli": "^3.3.11"
 	},
 	"dependencies": {
-		"@wpcampus/wpcampus-wc-default": "^0.0.1"
+		"@wpcampus/wpcampus-wc-default": "^0.0.5"
 	}
 }
