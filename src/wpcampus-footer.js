@@ -4,8 +4,7 @@ import "./wpcampus-footer.css";
 // wpc-area is the grid system used by WPCampus themes.
 const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 		<a href="https://www.wpcampus.org">
-			<svg version="1.1" class="wpc-logo wpc-logo--footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-		viewBox="0 0 300 50" style="enable-background:new 0 0 300 50;" xml:space="preserve">
+			<svg fill="currentColor" class="wpc-logo wpc-logo--footer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 300 50" xml:space="preserve">
 				<style type="text/css">.wpc-logo--footer .wpc-logo__letters--wp{opacity:0.7;}</style>
 				<title>WPCampus: Where WordPress meets Higher Education</title>
 				<g>
@@ -141,7 +140,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 				</li>
 				<li class="newsletter">
 					<a href="https://www.wpcampus.org/about/newsletter/">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 220 157" style="enable-background:new 0 0 220 157;" xml:space="preserve">
+						<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 220 157" xml:space="preserve">
 							<title>Subscribe to the WPCampus newsletter</title>
 							<g>
 								<path d="M200,20v117H20V20H200 M207.3,0H12.7C5.7,0,0,5.7,0,12.7v131.5c0,7,5.7,12.7,12.7,12.7h194.5c7,0,12.7-5.7,12.7-12.7V12.7
@@ -169,7 +168,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 				</li>
 				<li class="twitter">
 					<a href="https://twitter.com/wpcampusorg" title="Follow WPCampus on Twitter">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60" style="enable-background:new 0 0 70 60;" xml:space="preserve">
+						<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 70 60" xml:space="preserve">
 							<title>Follow WPCampus on Twitter</title>
 							<path d="M70,9c-2.1,2.9-4.5,5.5-7.3,7.7v1.7c0,3.9-0.6,7.9-1.7,11.7c-1.2,3.9-3,7.6-5.3,11c-2.3,4-5.3,6.7-8.6,9.7
 							c-3.3,2.8-7.1,5.1-11.2,6.7c-4.4,1.7-9.1,2.6-13.9,2.7C14.2,60,6.5,57.7,0,53.3h3.6c6.6,0.1,12.9-2.3,17.8-6.7
@@ -182,7 +181,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 				</li>
 				<li class="facebook">
 					<a href="https://www.facebook.com/wpcampus" title="Follow WPCampus on Facebook">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+						<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" xml:space="preserve">
 							<title>Follow WPCampus on Facebook</title>
 							<path d="M189,0H11C4.9,0,0,4.9,0,11v178c0,6.1,4.9,11,11,11h95.8v-77.5h-26V92.4h26.1V70.1
 							c0-25.8,15.8-39.9,38.8-39.9c11,0,20.5,0.8,23.3,1.2v27h-16c-12.5,0-15,6-15,14.7v19.3h29.9l-3.9,30.2h-26V200h51
@@ -192,7 +191,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 				</li>
 				<li class="youtube">
 					<a href="https://www.youtube.com/wpcampusorg" title="Follow WPCampus on YouTube">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 84 60" style="enable-background:new 0 0 84 60;" xml:space="preserve">
+						<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 84 60" xml:space="preserve">
 							<title>Follow WPCampus on YouTube</title>
 							<path d="M84,23c0,1.7,0,4,0,7s0,5.3,0,7s-0.1,3.8-0.4,6.4c-0.2,2.3-0.6,4.6-1.1,6.9c-0.5,2.2-1.6,4.2-3.2,5.8
 							c-1.6,1.5-3.6,2.5-5.8,2.7C66.5,59.6,56,60,42,60s-24.5-0.4-31.5-1.2c-2.2-0.2-4.2-1.2-5.8-2.7c-1.7-1.5-2.8-3.6-3.3-5.8
@@ -206,7 +205,7 @@ const template = `<div class="wpc-area wpc-footer__area wpc-footer__area--logo">
 				</li>
 				<li class="github">
 					<a href="https://github.com/wpcampus/" title="Follow WPCampus on GitHub">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 62 60" style="enable-background:new 0 0 62 60;" xml:space="preserve">
+						<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 62 60" xml:space="preserve">
 							<title>Follow WPCampus on GitHub</title>
 							<path d="M30.8,0C13.8,0,0,13.8,0,30.8C0,44.4,8.8,55.9,21,60c1.5,0.3,2.1-0.7,2.1-1.5c0-0.7,0-2.7,0-5.2c-8.6,1.9-10.4-4.1-10.4-4.1
 							c-1.4-3.6-3.4-4.5-3.4-4.5c-2.8-1.9,0.2-1.9,0.2-1.9c3.1,0.2,4.7,3.2,4.7,3.2c2.7,4.7,7.2,3.3,9,2.6c0.3-2,1.1-3.3,2-4.1
